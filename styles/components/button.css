@@ -1,9 +1,9 @@
 .button {
-  height: var(--button-height);
+  min-height: var(--button-height);
   padding-inline: 24px;
   font-family: var(--font-family-second);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--color-dark-alt);
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
@@ -20,7 +20,14 @@
   }
 
   &.small {
-    height: 52px;
+    min-height: 52px;
+    font-size: 16px;
     border-radius: var(--border-radius-16);
+  }
+}
+
+@media (max-width: 1024px) {
+  .button.small {
+    min-height: 44px;
   }
 }
