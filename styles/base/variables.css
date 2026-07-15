@@ -1,0 +1,31 @@
+:root {
+  --color-light: #fff;
+  --color-light-alt: #f8f8f8;
+  --color-dark: #000;
+  --color-dark-alt: #1a1a1a;
+  --color-light-gray: #f1f1f1;
+  --color-dark-gray: #525252;
+  --color-dark-gray-alt: #6d6d6d;
+  --color-accent: #83ff8f;
+
+  --gradient: linear-gradient(100deg, var(--color-accent) 0%, #c5f07f 100%);
+
+  --border-radius-64: 64px;
+  --border-radius-40: 40px;
+  --border-radius-32: 32px;
+  --border-radius-24: 24px;
+  --border-radius-16: 16px;
+  --border-radius-12: 12px;
+
+  --font-family-base: 'Archivo', sans-serif;
+  --font-family-second: 'Clash Display', sans-serif;
+
+  --container-width-lg: 1400px;
+  --container-width-md: 1260px;
+  --container-padding-x: 16px;
+  --section-padding-y: 164px;
+
+  --button-height: 54px;
+
+  --transition-duration: 0.2s;
+}
