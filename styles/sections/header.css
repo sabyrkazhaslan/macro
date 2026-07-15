@@ -1,8 +1,15 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 48px 56px;
+  gap: 16px;
+  padding: 56px 58px;
+  margin-bottom: 10px;
+}
+
+.header-logo {
+  flex-shrink: 0;
 }
 
 .header-menu-list {
@@ -10,4 +17,25 @@
   column-gap: 56px;
   font-family: var(--font-family-second);
   font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 24px 12px;
+  }
+
+  .header-menu-list {
+    column-gap: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-logo {
+    flex-grow: 1;
+  }
+
+  .header-menu {
+    order: 1;
+    flex-basis: 100%;
+  }
 }
