@@ -10,6 +10,8 @@
 
   --gradient: linear-gradient(100deg, var(--color-accent) 0%, #c5f07f 100%);
 
+  --shadow: 0 4px 21px rgb(0 0 0 / 0.25);
+
   --border-radius-64: 64px;
   --border-radius-40: 40px;
   --border-radius-32: 32px;
