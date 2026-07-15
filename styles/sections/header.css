@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 56px;
+}
+
+.header-menu-list {
+  display: flex;
+  column-gap: 56px;
+  font-family: var(--font-family-second);
+  font-weight: 500;
+}
