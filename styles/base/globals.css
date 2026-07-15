@@ -26,11 +26,17 @@ a {
 }
 
 button {
+  padding: 0;
+  background-color: transparent;
   border: none;
 }
 
-h1, h2 {
+h1, .h1,
+h2, .h2 {
+  font-family: var(--font-family-second);
   font-weight: 600;
+  line-height: 1.13;
+  color: var(--color-light);
 }
 
 h1, .h1 {
@@ -45,4 +51,10 @@ h2, .h2 {
   outline: 2px dashed var(--color-accent);
   outline-offset: 4px;
   transition-duration: 0s !important;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-block: 8px;
+  }
 }
