@@ -1,0 +1,5 @@
+.hero {
+  background: url('../../assets/images/hero-bg.svg') center / cover no-repeat;
+  max-width: 1400px;
+  min-height: 1010px;
+}
