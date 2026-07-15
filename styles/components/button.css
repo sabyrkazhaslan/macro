@@ -1,0 +1,26 @@
+.button {
+  height: var(--button-height);
+  padding-inline: 24px;
+  font-family: var(--font-family-second);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-dark-alt);
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--border-radius-24);
+
+  &:hover {
+    color: var(--color-accent);
+    background-color: transparent;
+    border-color: currentColor;
+  }
+
+  &:active {
+    scale: 0.95;
+  }
+
+  &.small {
+    height: 52px;
+    border-radius: var(--border-radius-16);
+  }
+}
